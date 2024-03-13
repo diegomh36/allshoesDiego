@@ -1,0 +1,46 @@
+.header{
+    display: flow-root;
+    background-color: rgb(19, 5, 0);
+}
+.logotipo{
+    float: left;
+    width: 30%;
+    padding: 5px 2px 5px 10px;
+}
+.menu-cabecera{
+    float: right;
+    width: 70%;
+    padding: 10px 2px 5px 60px;
+
+}
+.logotipo > img{
+    width: 8%;
+    margin-left: 3%;
+    float: left;
+}
+.logotipo > h3{
+    color: antiquewhite;
+    vertical-align: middle;
+    font-size: 2.2em;
+    margin-top: 4px;
+}
+.titulo-logo{
+    color: rgb(206, 60, 6);
+}
+.objeto-menu{
+    display: inline;
+    float: left;
+    list-style: none;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.menu > .objeto-menu > a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.menu > .objeto-menu > a:hover{
+    text-decoration: wavy;
+    color: rgb(206, 60, 6);
+}

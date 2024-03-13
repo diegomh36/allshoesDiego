@@ -1,0 +1,65 @@
+.principal{
+    margin-top: 15px;
+}
+.principal h1{
+    margin: 15px 0 15px;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px 0 20px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.item-tienda{
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.item-tienda h3{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.item-tienda img{
+    width: 90%;
+    align-items: center;
+}
+
+.boton-carrito {
+    margin-top: 30px;
+    padding: 4px 10px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+.boton-carrito:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: burlywood;
+    color: rgb(98, 64, 0);
+} 
+.footer{
+    float: right;
+}
+.footer a{
+    margin: 25px 15px;
+    padding: 6px 14px;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-radius:50%;
+    float: left;
+}
+.footer a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: burlywood;
+    color: rgb(98, 64, 0);
+    border-radius: 50%;
+}

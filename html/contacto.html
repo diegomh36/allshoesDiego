@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilo-general.css">
+    <link rel="stylesheet" href="../css/estilos-cabecera.css">
+    <link rel="stylesheet" href="../css/estilos-contacto.css">
+</head>
+
+<body>
+    <!-- Cabecera de la pagina -->
+    <div class="header">
+        <div class="logotipo">
+            <img src="../img/Logo.png">
+            <h3>ALL<span class="titulo-logo">SHOES</span></h3>
+        </div>
+        <!-- Enlaces a las otras partes de la pagina -->
+        <div class="menu-cabecera">
+            <ul class="menu">
+                <li class="objeto-menu"><a href="../index.html">INICIO</a></li>
+                <li class="objeto-menu"><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="objeto-menu"><a href="cursos.html">CURSOS</a></li>
+                <li class="objeto-menu"><a href="tienda.html">TIENDA</a></li>
+                <li class="objeto-menu"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Cuerpo principal de la pagina con su contenido -->
+    <div class="principal">
+        <h1>CONTACTO</h1>
+        <div class="informacion">
+            <div class="texto-informacion">
+                <h2>¿TIENES ALGUNA DUDA?</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ab nesciunt officiis at, quam, iusto
+                    velit minus voluptas illum dolore, harum quo incidunt perspiciatis? Aperiam nulla, facilis quidem
+                    totam amet itaque error, nobis in, esse delectus porro cumque!</p>
+                <h3>E-mail:</h3>
+                <h4>info@allshoes.es</h4>
+                <h3>Redes sociales:</h3>
+            </div>
+            <div class="redes-sociales">
+                <img src="../img/Logo.png" class="logotipo-redes">
+                <img src="../img/whatsapp-logo.png" class="whatsapp">
+                <img src="../img/telegram-icon.png" class="telegram">
+                <img src="../img/twitter-icon.png" class="twitter">
+                <img src="../img/instagram-logo.png" class="instagram">
+                <img src="../img/facebook-icon.png" class="facebook">
+            </div>
+        </div>
+        <!-- Formulario a la parte derecha de la pagina -->
+        <div class="formulario">
+            <form action="">
+                <input id="nombre" type="text" class="elemento-formulario" autocomplete="off" title="Solo puede escribir letras"
+                    required pattern="[A-Za-z]*" placeholder="NOMBRE" />
+                <input id="email" type="email" class="elemento-formulario" required placeholder="CORREO (CORREO@EMAIL.COM)" />
+                <input id="telefono" type="number" class="elemento-formulario" autocomplete="off" title="Solo puede escribir letras"
+                    required pattern="[0-9]*" placeholder="TELEFONO(+34 XXX XXX XXX)" />
+                <select class="elemento-formulario">
+                    <option value="" selected="selected">TEMA</option>
+                    <option value="tema1">TEMA1</option>
+                    <option value="tema2">TEMA2</option>
+                    <option value="tema3">TEMA3</option>
+                </select>
+                <input type="text" placeholder="MENSAJE" class="mensaje"/>
+                <p class="aceptar-condiciones">
+                    <input type="checkbox" name="condiciones" required>
+                    Aceptar <a href="">condiciones</a>
+                </p>
+                <input type="submit" value="ENVIAR" class="boton-enviar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

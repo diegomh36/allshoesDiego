@@ -1,0 +1,123 @@
+.principal{
+    margin-top: 15px;
+}
+.principal h1{
+    margin: 15px 0 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 0 10px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.informacion{
+    width: 55%;
+    float: left;
+    padding-left: 25px;
+}
+.texto-informacion{
+    margin-left: 20px;
+}
+.texto-informacion h2{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.texto-informacion h3{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+.texto-informacion h4{
+    margin-top: 3px;
+}
+
+
+.redes-sociales{
+    position: relative;
+    height: 250px;
+}
+.logotipo-redes{
+    position: absolute;
+    width: 10%;
+    left: 20%;
+    top: 50%;
+}
+.whatsapp{
+    position: absolute;
+    width: 3%;
+    left: 28%;
+    top: 46%;
+}
+.telegram{
+    position: absolute;
+    width: 3%;
+    left: 15%;
+    top: 64%;
+}
+.instagram{
+    position: absolute;
+    width: 3%;
+    left: 19%;
+    top: 46%;
+}
+.facebook{
+    position: absolute;
+    width: 3%;
+    left: 32%;
+    top: 64%;
+}
+.twitter{
+    position: absolute;
+    width: 3%;
+    left: 23.8%;
+    top: 34%;
+}
+
+
+.formulario{
+    width: 45%;
+    float: right;
+    padding-left: 10%;
+}
+.elemento-formulario{
+    width: 75%;
+    display: block;
+    margin-bottom: 10px;
+    padding:12px 8px;
+    font-weight: bolder;
+    border: solid 1.5px;
+}
+.mensaje{
+    width: 75%;
+    display: block;
+    height: 90px;
+    padding:0px 8px 60px;
+    font-weight: bold;
+}
+::placeholder{
+    color: black;
+    vertical-align: top;
+}
+.aceptar-condiciones{
+    margin-top: 13px;
+}
+.boton-enviar {
+    margin: 20px 170px 0px 0px;
+    padding: 6px 45px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    border-radius: 25px;
+    float: right;
+}
+.boton-enviar:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: burlywood;
+    color: rgb(98, 64, 0);
+    border-radius: 25px;
+}
+

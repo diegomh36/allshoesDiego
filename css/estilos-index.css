@@ -1,0 +1,59 @@
+.contenedor-principal{
+    border-top: 2px solid rgb(94, 94, 94);
+    margin-top: 15px;   
+}
+.contenedor-principal > .imagen-fondo{
+    margin-top: 15px;
+    background-image: url("../img/Carrousel-1.png");
+    margin: 20px 10px 15px 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imagen-fondo h1{
+    color: antiquewhite;
+    padding: 15% 0% 15% 2%;
+
+}
+.salto{
+    font-size: 0;
+    display: block;
+}
+
+
+.boton-compra{
+    float: left;
+    width: 49%;
+    margin-left: 10px;
+}
+
+.boton-compra > p{
+    padding-bottom: 25px;
+    font-size: larger;
+}
+
+.boton-compra > a{
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.boton-compra > a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: burlywood;
+    color: rgb(98, 64, 0);
+    border-radius: 10px;
+}   
+.imagenes-tenis{
+    float: right;
+    width: 49%;
+}
+
+.imagenes-tenis > img{
+    width: 32.5%;
+    padding-left: 2%;
+}

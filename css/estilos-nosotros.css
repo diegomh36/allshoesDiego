@@ -1,0 +1,41 @@
+.titular{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 13px 0 13px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.fotografia-tienda{
+    float: left;
+    width: 50%;
+    padding: 0 20px 0 20px;
+}
+
+.fotografia-tienda img{
+    width: 90%;
+    height: 400px;
+}
+
+.info-empresa{
+    float: left;
+    width: 50%;
+}
+.logotipo-nosotros img{
+    width: 5%;
+    float: left;
+}
+.logotipo-nosotros h3{
+    font-size: 2em;
+}
+.parrafo-negrita{
+    margin: 20px 0 30px;
+    font-weight: bold;
+}
+.redes-sociales img{
+    padding: 20px 6px;
+    width: 6%;
+    float: left;
+}
+
